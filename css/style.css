@@ -98,6 +98,10 @@ html{
     text-decoration: none;
 }
 
+section{
+    font-size: 0;
+}
+
 .jumbo{
     width: 100%;
     height: 75vh;
@@ -195,8 +199,20 @@ html{
     font-weight: 500;
 }
 
-.vocal{
+.wave{
     margin-top: 8rem;
+}
+
+.grey{
 
     color: #f6f6f6;
+}
+
+.white{
+
+    color: white;
+}
+
+.greySec{
+    background-color: #f6f6f6;
 }

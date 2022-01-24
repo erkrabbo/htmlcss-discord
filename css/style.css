@@ -156,3 +156,15 @@ html{
     background-color: black;
     color: white;
 }
+
+.img-info{
+    float: left;
+
+    max-width: 60%;
+}
+
+.info{
+    display: inline;
+
+    margin-top: 5rem;
+}

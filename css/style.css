@@ -307,3 +307,26 @@ footer img{
 .minor h2{
     font-size: 1rem;
 }
+
+.minor:not(:last-child){
+    margin-right: 4rem;
+}
+
+.registration{
+    border-top: 1px solid #7289da;
+    padding-top: 2rem;
+
+    margin-top: 4rem;
+}
+
+.registration a{
+    background-color: #7289da;
+    color: white;
+    
+    font-weight: 400;
+}
+
+.registration .logo{
+    width: 120px;
+    height: auto;
+}

@@ -72,7 +72,7 @@ html{
     list-style: none;
 }
 
-.nav-menu li{
+.nav-menu li, .socials li, .minor ul{
     display: inline-block;
 }
 
@@ -252,4 +252,58 @@ section{
     background-image: url(../img/stars.svg);
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+footer{
+    background-color: #23272a;
+    font-size: 1rem;
+
+    padding: 5rem 0;
+}
+
+
+footer h2{
+    color: #7289da;
+}
+footer li{
+    margin-top: 1rem;
+    list-style: none;
+    color:white;
+}
+
+footer img{
+    height: 1rem;
+}
+
+.prio{
+    max-width: 30%;
+
+    text-align: left;
+
+    margin-right: 4rem;
+}
+.prio h2{
+    font-size: 2rem;
+}
+
+.socials{
+    width: 100%;
+}
+
+.socials li{
+    margin-right: .5rem;
+    margin-top: .5rem;
+}
+
+.minor{
+
+    max-width: 15%;
+
+    text-align: left;
+
+    transform: translate(0, .5rem);
+}
+
+.minor h2{
+    font-size: 1rem;
 }
